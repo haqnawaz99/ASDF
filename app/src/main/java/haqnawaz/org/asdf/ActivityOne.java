@@ -35,6 +35,7 @@ public class ActivityOne extends AppCompatActivity {
             public void onClick(View v) {
                 counter--;
                 setTextView(counter);
+
             }
         });
     }
