@@ -29,6 +29,14 @@ public class ActivityOne extends AppCompatActivity {
                 textView.setText(Integer.toString(counter));
             }
         });
+
+        buttonDecrease.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                counter--;
+                textView.setText(Integer.toString(counter));
+            }
+        });
     }
 
     public void ResetNumber(View view) {
