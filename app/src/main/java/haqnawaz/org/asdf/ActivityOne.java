@@ -34,8 +34,8 @@ public class ActivityOne extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 counter--;
-                setTextView(counter);
 
+                setTextView(counter);
             }
         });
     }
