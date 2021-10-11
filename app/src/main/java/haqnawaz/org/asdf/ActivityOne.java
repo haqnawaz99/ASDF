@@ -30,13 +30,18 @@ public class ActivityOne extends AppCompatActivity {
             }
         });
 
-        buttonDecrease.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                counter--;
+//        buttonDecrease.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                counter--;
+//
+//                setTextView(counter);
+//            }
+//        });
 
-                setTextView(counter);
-            }
+        buttonDecrease.setOnClickListener((View v) -> {
+            counter--;
+            setTextView(counter);
         });
     }
 
