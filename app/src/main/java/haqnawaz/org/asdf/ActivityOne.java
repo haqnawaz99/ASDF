@@ -26,7 +26,7 @@ public class ActivityOne extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 counter++;
-                textView.setText(Integer.toString(counter));
+                setTextView(counter);
             }
         });
 
@@ -34,13 +34,18 @@ public class ActivityOne extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 counter--;
-                textView.setText(Integer.toString(counter));
+                setTextView(counter);
             }
         });
     }
 
     public void ResetNumber(View view) {
         counter=0;
+        setTextView(counter);
+    }
+
+    private  void setTextView(int counter)
+    {
         textView.setText(Integer.toString(counter));
     }
 }
