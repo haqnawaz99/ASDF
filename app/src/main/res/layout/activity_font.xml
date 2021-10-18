@@ -27,12 +27,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="132dp"
         android:background="#072BF4"
+        android:padding="16px"
         android:text="اللہ کے نام سے شروع جوبڑا مہربان نہائت رحم کرنے والا ہے"
         android:textColor="#FA9807"
         android:textSize="36sp"
-        android:padding="16px"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewArabic" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

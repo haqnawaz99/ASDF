@@ -8,4 +8,6 @@
     <string name="round_up_tip">Round up tip?</string>
     <string name="calculate">Calculate</string>
     <string name="tip_amount">Tip Amount</string>
+    <string name="content_description_header_image">Islam</string>
+    <string name="HeaderHeading">القرآن الکریم</string>
 </resources>

@@ -9,6 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ASDF">
+        <activity android:name=".DesignActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LayoutActivity1"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".FontActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
